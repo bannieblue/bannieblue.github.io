@@ -1,0 +1,40 @@
+body{margin: 0;}
+body,html,.parent-section{
+    height: 100%;
+    /*background-color: lightblue;*/
+}
+.middle-section{
+    overflow: hidden;
+    height:calc(100% - 60px);
+    /*background-color: lemonchiffon;*/
+}
+.top-section{
+    height: 60px;
+    background-color:lightpink;
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: x-large;
+}
+.middle-left{
+    float: left;
+    width: 100px;
+    height: 100%;
+    margin-right: 20px;
+    border-right: 1px solid #000;
+}
+.middle-right{
+    overflow: auto;
+    height: 100%;
+}
+.middle-left ul{
+    list-style: none;
+    padding-left: 10px;
+}
+a{
+    text-decoration:none;
+    color:#000;
+    cursor: pointer;
+}
+a:hover{
+    color:blue;
+}
